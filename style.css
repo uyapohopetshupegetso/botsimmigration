@@ -1,0 +1,93 @@
+nav{
+    display: block;
+    background-color: rgb(106, 169, 233);
+    padding: 15px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0%;
+}
+nav ul li a{
+    text-decoration: solid;
+    color: aliceblue;
+}
+nav ul li{
+    display:inline;
+    padding: 0 20px;
+}
+header{
+    display:flex;
+    background-color:white;
+    padding:2px;
+    align-items: center;
+    justify-content: space-around;
+}
+#logo{
+    width:20px;
+    height:auto;
+}
+#search-box{
+    width: 80px;
+    padding:2px;
+    color:black;
+    border: radius 8px;
+}
+header p{
+    font-size:25px;
+    color:black;
+    font-weight: solid;
+    display: block;
+    justify-content: center;
+    padding: 30px;
+}
+header img{
+    height: 200px;
+    display: block;
+    justify-content: right;
+}
+footer{
+    background-color: rgb(106, 169, 233);
+    color: aliceblue;
+    padding: auto;
+    text-align: center;
+}
+footer ul{
+    display:-ms-inline-flexbox;
+}
+img{
+    max-width: 400px;
+    height:auto;
+    display: block;
+    margin:0 auto ;
+}
+.container{
+    display: flex;
+    max-width: 1800px;
+    gap: 30px;
+}
+.maincontent{
+    width: 90%;
+    border-radius: 20px;
+    padding: 10px;
+    margin-block: 15px;
+    background-color: aliceblue;
+    box-shadow: aliceblue;
+}
+body{
+    box-sizing: border-box;
+}
+nav ul li a:hover{
+    color: rgb(247, 179, 90);
+}
+nav ul li a:active{
+    color: rgb(22, 199, 199);
+}
+nav ul li a:visited{
+    color: rgb(145, 80, 206);
+}
+@media screen (min-width : 1000px;){
+    width: 90%;
+}
+@media (max-width: 1000px) {
+    display: grid-column;
+}
